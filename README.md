@@ -1,16 +1,22 @@
-# lumra_project
+# Lumra - Adaptive ADHD Support System 
 
-A new Flutter project.
+**Lumra** is a specialized mobile application engineered to support individuals with ADHD through task management and AI-driven guidance. The system focuses on delivering "ADHD-tolerant" experiences, reducing cognitive load for users while keeping caregivers connected.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## My Key Technical Contributions
 
-A few resources to get you started if this is your first Flutter project:
+As a core developer on this project, I was responsible for the following high-impact features:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* **Real-Time Shared Calendar:** Developed the collaborative calendar system using **Firebase Firestore**. I engineered the sync logic to ensure that tasks, schedules, and reminders stay updated instantly between the ADHD user and their caregiver.
+* **Context-Aware Activity Engine:** Built the logic that dynamically updates suggested activities in the app based on the user's current situation and mood, as communicated through the chatbot.
+* **Interactive UI/UX Development:** Designed and implemented the frontend using **Flutter & Dart**. I focused on neurodivergent-friendly design principles, ensuring the interface minimizes "choice paralysis" and executive dysfunction.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## Tech Stack
+
+* **Frontend:** Flutter & Dart
+* **Backend & Real-Time Sync:** Firebase (Auth, Firestore)
+* **AI Engine:** Google Gemini API (Natural Language Processing)
+* **Design:** Figma (UX/UI Research & Prototyping)
